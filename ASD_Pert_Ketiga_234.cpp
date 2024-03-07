@@ -57,5 +57,10 @@ void display() {
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    input();
+    bubbleSortArray();
+    display();
+    system("pause");
+
+    return 0;
 }
